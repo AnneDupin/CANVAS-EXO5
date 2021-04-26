@@ -71,7 +71,11 @@ ctx.stroke();
 ctx.beginPath(); 
 //BUTTONS
 ctx.fillStyle = "#3a0ca3";
+ctx.arc(300, 279, 10, 0, 2*pi, false);
+ctx.fill();
 ctx.arc(300, 200, 10, 0, 2*pi, false);
 ctx.fill();
-ctx.arc(300, 230, 10, 0, 2*pi, false);
-ctx.fill();
+
+
+
+
